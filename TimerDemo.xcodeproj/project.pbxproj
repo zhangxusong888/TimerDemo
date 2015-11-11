@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139F481C1BF1F7AD00025CA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F481B1BF1F7AD00025CA9 /* AppDelegate.swift */; };
+		139F48211BF1F7AD00025CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139F481F1BF1F7AD00025CA9 /* Main.storyboard */; };
+		139F48231BF1F7AD00025CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139F48221BF1F7AD00025CA9 /* Assets.xcassets */; };
+		139F48261BF1F7AD00025CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139F48241BF1F7AD00025CA9 /* LaunchScreen.storyboard */; };
+		139F48301BF1FDC800025CA9 /* UIThread.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139F482F1BF1FDC800025CA9 /* UIThread.storyboard */; };
+		139F48321BF1FDDD00025CA9 /* WorkThread.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139F48311BF1FDDD00025CA9 /* WorkThread.storyboard */; };
+		139F48341BF1FE7D00025CA9 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F48331BF1FE7D00025CA9 /* SelectViewController.swift */; };
+		139F483C1BF2034C00025CA9 /* UIThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F483B1BF2034C00025CA9 /* UIThreadViewController.swift */; };
+		139F483E1BF2037400025CA9 /* WorkThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F483D1BF2037400025CA9 /* WorkThreadViewController.swift */; };
+		139F48401BF2082A00025CA9 /* LogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139F483F1BF2082A00025CA9 /* LogViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139F48181BF1F7AD00025CA9 /* TimerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		139F481B1BF1F7AD00025CA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		139F48201BF1F7AD00025CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		139F48221BF1F7AD00025CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		139F48251BF1F7AD00025CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		139F48271BF1F7AD00025CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		139F482F1BF1FDC800025CA9 /* UIThread.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UIThread.storyboard; sourceTree = "<group>"; };
+		139F48311BF1FDDD00025CA9 /* WorkThread.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WorkThread.storyboard; sourceTree = "<group>"; };
+		139F48331BF1FE7D00025CA9 /* SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		139F483B1BF2034C00025CA9 /* UIThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIThreadViewController.swift; sourceTree = "<group>"; };
+		139F483D1BF2037400025CA9 /* WorkThreadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkThreadViewController.swift; sourceTree = "<group>"; };
+		139F483F1BF2082A00025CA9 /* LogViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139F48151BF1F7AD00025CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139F480F1BF1F7AD00025CA9 = {
+			isa = PBXGroup;
+			children = (
+				139F481A1BF1F7AD00025CA9 /* TimerDemo */,
+				139F48191BF1F7AD00025CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139F48191BF1F7AD00025CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139F48181BF1F7AD00025CA9 /* TimerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139F481A1BF1F7AD00025CA9 /* TimerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				139F481B1BF1F7AD00025CA9 /* AppDelegate.swift */,
+				139F481F1BF1F7AD00025CA9 /* Main.storyboard */,
+				139F48331BF1FE7D00025CA9 /* SelectViewController.swift */,
+				139F482F1BF1FDC800025CA9 /* UIThread.storyboard */,
+				139F483B1BF2034C00025CA9 /* UIThreadViewController.swift */,
+				139F483F1BF2082A00025CA9 /* LogViewModel.swift */,
+				139F48311BF1FDDD00025CA9 /* WorkThread.storyboard */,
+				139F483D1BF2037400025CA9 /* WorkThreadViewController.swift */,
+				139F48221BF1F7AD00025CA9 /* Assets.xcassets */,
+				139F48241BF1F7AD00025CA9 /* LaunchScreen.storyboard */,
+				139F48271BF1F7AD00025CA9 /* Info.plist */,
+			);
+			path = TimerDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139F48171BF1F7AD00025CA9 /* TimerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139F482A1BF1F7AD00025CA9 /* Build configuration list for PBXNativeTarget "TimerDemo" */;
+			buildPhases = (
+				139F48141BF1F7AD00025CA9 /* Sources */,
+				139F48151BF1F7AD00025CA9 /* Frameworks */,
+				139F48161BF1F7AD00025CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerDemo;
+			productName = TimerDemo;
+			productReference = 139F48181BF1F7AD00025CA9 /* TimerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139F48101BF1F7AD00025CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = mo;
+				TargetAttributes = {
+					139F48171BF1F7AD00025CA9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 139F48131BF1F7AD00025CA9 /* Build configuration list for PBXProject "TimerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139F480F1BF1F7AD00025CA9;
+			productRefGroup = 139F48191BF1F7AD00025CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139F48171BF1F7AD00025CA9 /* TimerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139F48161BF1F7AD00025CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139F48301BF1FDC800025CA9 /* UIThread.storyboard in Resources */,
+				139F48321BF1FDDD00025CA9 /* WorkThread.storyboard in Resources */,
+				139F48261BF1F7AD00025CA9 /* LaunchScreen.storyboard in Resources */,
+				139F48231BF1F7AD00025CA9 /* Assets.xcassets in Resources */,
+				139F48211BF1F7AD00025CA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139F48141BF1F7AD00025CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139F48341BF1FE7D00025CA9 /* SelectViewController.swift in Sources */,
+				139F48401BF2082A00025CA9 /* LogViewModel.swift in Sources */,
+				139F481C1BF1F7AD00025CA9 /* AppDelegate.swift in Sources */,
+				139F483E1BF2037400025CA9 /* WorkThreadViewController.swift in Sources */,
+				139F483C1BF2034C00025CA9 /* UIThreadViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		139F481F1BF1F7AD00025CA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139F48201BF1F7AD00025CA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		139F48241BF1F7AD00025CA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139F48251BF1F7AD00025CA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139F48281BF1F7AD00025CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		139F48291BF1F7AD00025CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139F482B1BF1F7AD00025CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo.TimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		139F482C1BF1F7AD00025CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mo.TimerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139F48131BF1F7AD00025CA9 /* Build configuration list for PBXProject "TimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139F48281BF1F7AD00025CA9 /* Debug */,
+				139F48291BF1F7AD00025CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139F482A1BF1F7AD00025CA9 /* Build configuration list for PBXNativeTarget "TimerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139F482B1BF1F7AD00025CA9 /* Debug */,
+				139F482C1BF1F7AD00025CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 139F48101BF1F7AD00025CA9 /* Project object */;
+}

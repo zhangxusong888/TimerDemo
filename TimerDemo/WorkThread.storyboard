@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="QWc-gE-o8I">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--工作线程计时器-->
+        <scene sceneID="yq1-Aq-POY">
+            <objects>
+                <viewController storyboardIdentifier="WorkThreadViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CSd-3h-x4f" customClass="WorkThreadViewController" customModule="TimerDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UDx-Aq-Kq0"/>
+                        <viewControllerLayoutGuide type="bottom" id="GAv-K8-Bgh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rLA-vr-0Ob">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="log" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Q1V-ug-DA2">
+                                <rect key="frame" x="20" y="84" width="280" height="464"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GAv-K8-Bgh" firstAttribute="top" secondItem="Q1V-ug-DA2" secondAttribute="bottom" constant="20" id="1CC-Kp-vv1"/>
+                            <constraint firstItem="Q1V-ug-DA2" firstAttribute="top" secondItem="UDx-Aq-Kq0" secondAttribute="bottom" constant="20" id="ItY-bG-lIY"/>
+                            <constraint firstAttribute="trailing" secondItem="Q1V-ug-DA2" secondAttribute="trailing" constant="20" id="Ybf-jO-TOP"/>
+                            <constraint firstItem="Q1V-ug-DA2" firstAttribute="leading" secondItem="rLA-vr-0Ob" secondAttribute="leading" constant="20" id="rT6-rf-Uzd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="工作线程计时器" id="bLk-q4-xLu"/>
+                    <connections>
+                        <outlet property="logTextView" destination="Q1V-ug-DA2" id="GOS-3Y-W4M"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bsm-Gk-7bU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="191"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cMH-Q8-Ba4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="QWc-gE-o8I" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hwy-SP-q9j">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CSd-3h-x4f" kind="relationship" relationship="rootViewController" id="S2G-ie-G3i"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Asx-bw-tt3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69" y="191"/>
+        </scene>
+    </scenes>
+</document>
