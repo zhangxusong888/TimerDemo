@@ -44,9 +44,10 @@ extension WorkThreadViewController {
         super.viewWillAppear(animated)
 
         //创建并执行新的线程
-        let thread = NSThread(target: self, selector: Selector("startTimer"), object: nil)
-        thread.start()
-        viewModel?.log = "新的线程: \(thread)"
+//        let thread = NSThread(target: self, selector: Selector("startTimer"), object: nil)
+//        thread.start()
+        NSThread.detachNewThreadSelector(Selector("startTimer"), toTarget: self, withObject: nil)
+//        viewModel?.log = "新的线程: \(thread)"
     }
 
     override func viewWillDisappear(animated: Bool) {
